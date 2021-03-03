@@ -1,0 +1,98 @@
+    * {
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url("../img/fondologin.png");
+        background-repeat: no-repeat;
+    }
+    
+    header {
+        background-color: #000000d0;
+        padding: 2em;
+    }
+    
+    .position {
+        display: flex;
+        justify-content: space-between;
+        flex-grow: 2;
+        margin-right: 250px;
+    }
+    
+    .login {
+        background-color: #000000d0;
+        width: 20%;
+        display: flex;
+        flex: 0 1;
+        flex-flow: column wrap;
+        align-items: center;
+        margin: 4% auto;
+        padding: 2em;
+        border-radius: 10px 10px 10px 10px;
+        -moz-border-radius: 10px 10px 10px 10px;
+        -webkit-border-radius: 10px 10px 10px 10px;
+        border: 0px solid #000000;
+    }
+    
+    form {
+        text-align: center;
+    }
+    
+    input {
+        width: 60%;
+        padding: 0.6em;
+        margin: 10px;
+        font-size: 15px;
+    }
+    
+    .register {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .register:hover {
+        text-decoration: underline;
+    }
+    
+    .botoninicio {
+        padding: 1em;
+        width: 265px;
+        background-color: white;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .botoninicio:hover {
+        background-color: #33ADFF;
+        color: white;
+        transition: 0.7s;
+    }
+    
+    #h2 {
+        color: white;
+        text-align: center;
+        margin: auto;
+    }
+    
+    #login {
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
+    #remember {
+        color: white;
+        font-weight: bold;
+        text-align: right;
+        font-size: 10px;
+        max-width: 330px;
+    }
+    
+    #register {
+        color: white;
+        font-weight: bold;
+        font-style: italic;
+        font-size: 15px;
+    }

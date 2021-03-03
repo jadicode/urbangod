@@ -1,0 +1,78 @@
+.pnovedades {
+    text-align: center;
+}
+
+.num-novedades {
+    color: crimson;
+    font-weight: bold;
+}
+
+.alineaciontarjetas {
+    max-width: 1000px;
+    display: flex;
+    flex: 0 1;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.cajatarjeta {
+    margin-top: 10px;
+    padding: 1em;
+    background-color: black;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 2px solid white;
+}
+
+.boton1 {
+    margin-top: 5px;
+    background-color: #33ADFF;
+    padding: 0.7em;
+    border: none;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.boton1:hover {
+    color: #000;
+    background-color: white;
+    transition: 0.7s;
+}
+
+.boton2 {
+    margin-top: 2px;
+    background-color: #2C5A61;
+    padding: 0.7em;
+    border: none;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.boton2:hover {
+    color: #000;
+    background-color: white;
+    transition: 0.7s;
+}
+
+#titulotarjeta {
+    color: white;
+}
+
+#precio {
+    color: white;
+    font-weight: bold;
+    margin-top: -5%;
+}
+
+#seccionzapatillas {
+    color: #33ADFF;
+}
+
+.alineacionh2 {
+    text-align: center;
+}

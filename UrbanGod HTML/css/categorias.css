@@ -1,0 +1,21 @@
+.imagenes {
+    position: relative;
+}
+
+.pimagencategorias {
+    position: absolute;
+    bottom: 37%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.pimagencategorias:hover {
+    cursor: pointer;
+    color: #33acab;
+    transition: 0.7s;
+}

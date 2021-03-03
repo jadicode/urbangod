@@ -1,0 +1,94 @@
+section {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.cuadrante {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.cuadrosoporte {
+    width: 50%;
+    padding: 1em;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.textosoporte {
+    background-color: white;
+    margin-top: 15px;
+    padding: 1em;
+    text-align: justify;
+}
+
+.fa-question-circle {
+    color: white;
+    font-size: 40px;
+}
+
+.cajasdetexto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1em;
+}
+
+.cajas {
+    padding: 1em;
+    text-align: left;
+}
+
+.fa-mobile-alt {
+    margin-right: 10px;
+}
+
+.fa-envelope {
+    margin-right: 10px;
+}
+
+.input-num,
+.input-correo {
+    width: 210px;
+    padding: 0.5em;
+    border: 1px solid #cacaca;
+    border-bottom: 3px solid #cacaca;
+}
+
+.fa-arrow-right {
+    color: black;
+    font-size: 15px;
+}
+
+.fa-arrow-right:hover {
+    color: #33ADFF;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+.barraseparatoria {
+    display: flex;
+    flex: 0;
+    align-items: center;
+}
+
+hr {
+    flex-grow: 1;
+    height: 0px;
+    margin: 0 0.2em;
+    opacity: 0.5;
+}
+
+.form-contacto {
+    text-align: center;
+}
+
+.fa-calendar-alt {
+    padding: 0.4em;
+}
+
+#idp {
+    opacity: 0.5;
+}

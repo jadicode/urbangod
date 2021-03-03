@@ -1,0 +1,44 @@
+.infoclub {
+    text-align: center;
+    margin-top: 6%;
+}
+
+.unete {
+    padding: 1em;
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    width: 20%;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid black;
+    border-bottom: 2px solid black;
+    margin-top: 2%;
+}
+
+.unete:hover {
+    color: #2ecc71;
+    background-color: white;
+    border: 1px solid #2ecc71;
+    border-bottom: 2px solid #2ecc71;
+    transition: 0.7s;
+}
+
+.info {
+    font-size: 12px;
+    font-style: italic;
+}
+
+.infoa {
+    color: black;
+}
+
+.infoa:hover {
+    color: #33ADFF;
+    transition: 0.5s;
+}
+
+#club {
+    color: #33ADFF;
+}

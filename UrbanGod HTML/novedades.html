@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="img/urbanlogoweb.png">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <link rel="stylesheet" type="text/css" href="css/novedades.css">
+    <link rel="stylesheet" type="text/css" href="css/cargador.css">
+    <link rel="stylesheet" type="text/css" href="css/darkmode.css">
+    <script src="js/cargador.js"></script>
+    <script src="js/descuento.js"></script>
+    <script src="js/darkmode.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://kit.fontawesome.com/85caf4dd13.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <title>Novedades - UrbanGod</title>
+</head>
+
+<body class="oculto">
+    <div class="centrado" id="onload">
+        <div class="lds-ring">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <header>
+        <a href="index.html"><img src="img/urbangodlogo.png" width="200"></a>
+        <div class="buscador">
+            <input class="searcherconfig" type="text" placeholder="&#xF002; Buscar en UrbanGod..." style="font-family:Arial, FontAwesome" class="buscar-texto">
+        </div>
+        <div class="elementosheader">
+            <a href="login.html"><i class="fas fa-user"></i></a>
+            <a href="#"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+    </header>
+    <div class="navegacion">
+        <nav>
+            <ul>
+                <li><a href="novedades.html" class="configlinks">Novedades</a></li>
+                <li><a href="index.html" class="configlinks">Categorías</a></li>
+                <li><a href="cluburban.html" class="configlinks">ClubUrban</a></li>
+                <li><a href="soporte.html" class="configlinks">Soporte</a></li>
+                <li><a href="#" class="configlinks">¿Quiénes somos?</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="descuento" id="mostrarOcultar">
+        <p class="descuentop">Usa el código:<span class="discountcolor"> 20DICIEMBRE</span> Para recibir un 20% de descuento en artículos seleccionados. <i class="far fa-times-circle" onclick="ocultar()"></i></p>
+    </div>
+    <section>
+        <h2 class="alineacionh2">Estás en la sección de <span id="seccionzapatillas">Novedades</span>.</h2>
+        <p class="pnovedades">Actualmente tenemos: <span class="num-novedades">3</span> artículos nuevo. ¡Échales un vistazo!</p>
+        <div class="alineaciontarjetas">
+            <div class="cajatarjeta">
+                <img src="img/nov1.png" width="200">
+                <p id="titulotarjeta">Nike Sportswear Hybrid<span class="num-novedades"> (Nuevo)</span></p>
+                <p id="precio">95.95€</p>
+                <a href="#" class="boton1">Comprar ahora</a>
+                <a href="#" class="boton2">Añadir al carrito</a>
+            </div>
+            <div class="cajatarjeta">
+                <img src="img/nov2.png" width="200">
+                <p id="titulotarjeta">The North Face Nuptse<span class="num-novedades"> (Nuevo)</span></p>
+                <p id="precio">225€</p>
+                <a href="#" class="boton1">Comprar ahora</a>
+                <a href="#" class="boton2">Añadir al carrito</a>
+            </div>
+            <div class="cajatarjeta">
+                <img src="img/nov3.png" width="200">
+                <p id="titulotarjeta">11 Degrees Space Eclipse<span class="num-novedades"> (Nuevo)</span></p>
+                <p id="precio">105€</p>
+                <a href="#" class="boton1">Comprar ahora</a>
+                <a href="#" class="boton2">Añadir al carrito</a>
+            </div>
+        </div>
+
+    </section>
+    <footer>
+        <div class="blackline"></div>
+        <div class="footerbg">
+            <div class="footer-design">
+                <div class="tarjeta1">
+                    <h2>Ayuda y contacto</h2>
+                    <a href="#" class="footerlinks">
+                        <p>Seguir tu pedido.</p>
+                    </a>
+                    <a href="#" class="footerlinks">
+                        <p>Devolver un pedido.</p>
+                    </a>
+                </div>
+                <div class="tarjeta2">
+                    <h2>Tarjetas de regalo</h2>
+                    <a href="#" class="footerlinks">
+                        <p>Comprar una tarjeta de regalo.</p>
+                    </a>
+                    <a href="#" class="footerlinks">
+                        <p>Canjear código de descuento.</p>
+                    </a>
+                </div>
+                <div class="tarjeta3">
+                    <h2>Nuestras ventajas</h2>
+                    <a href="#" class="footerlinks">
+                        <p>Devolución gratuita.</p>
+                    </a>
+                    <a href="#" class="footerlinks">
+                        <p>Derecho de devolución de 75 días.</p>
+                    </a>
+                </div>
+                <div class="tarjeta3">
+                    <h2>Más información</h2>
+                    <a href="quienessomos.html" class="footerlinks">
+                        <p>¿Quiénes somos?</p>
+                    </a>
+                    <a href="#" class="footerlinks">
+                        <p>Distribuidores oficiales.</p>
+                    </a>
+                </div>
+
+            </div>
+            <div class="redes">
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+            </div>
+            <p class="copyright">©UrbanGod all rights reserved.</p>
+        </div>
+
+    </footer>
+</body>
+
+</html>

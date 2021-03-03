@@ -1,0 +1,53 @@
+.fa-moon {
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.fa-moon:hover {
+    color: #33ADFF;
+    transition: 0.7s;
+}
+
+.darkmode {
+    background-color: #151515;
+    transition: 0.7s;
+}
+
+.searcherconfigdark {
+    border: 1px solid #485460;
+    border-bottom: 2px solid #485460;
+}
+
+.navdark {
+    background-color: #1e272e;
+}
+
+.descuentodark {
+    background-color: #FDFDFD;
+}
+
+.blacklinedark {
+    background-color: #FDFDFD;
+}
+
+.footerbgdark {
+    background-color: #1e272e;
+}
+
+.h2dark1,
+.h2dark2,
+.h2dark3,
+.h2dark4 {
+    color: white;
+}
+
+.pdark {
+    color: white;
+}
+
+.user1dark,
+.user2dark,
+.user3dark {
+    color: white;
+}

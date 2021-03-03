@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="img/urbanlogoweb.png">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <link rel="stylesheet" type="text/css" href="css/producto.css">
+    <link rel="stylesheet" type="text/css" href="css/cargador.css">
+    <script src="js/cargador.js"></script>
+    <script src="js/descuento.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://kit.fontawesome.com/85caf4dd13.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <title>Nike Air Max 95</title>
+</head>
+
+<body class="oculto">
+    <div class="centrado" id="onload">
+        <div class="lds-ring">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <header>
+        <a href="index.html"><img src="img/urbangodlogo.png" width="200"></a>
+        <div class="buscador">
+            <input class="searcherconfig" type="text" placeholder="&#xF002; Buscar en UrbanGod..." style="font-family:Arial, FontAwesome" class="buscar-texto">
+        </div>
+        <div class="elementosheader">
+            <a href="login.html"><i class="fas fa-user"></i></a>
+            <a href="#"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+    </header>
+    <div class="navegacion">
+        <nav>
+            <ul>
+                <li><a href="novedades.html" class="configlinks">Novedades</a></li>
+                <li><a href="index.html" class="configlinks">Categorías</a></li>
+                <li><a href="cluburban.html" class="configlinks">ClubUrban</a></li>
+                <li><a href="soporte.html" class="configlinks">Soporte</a></li>
+                <li><a href="#" class="configlinks">¿Quiénes somos?</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="descuento" id="mostrarOcultar">
+        <p class="descuentop">Usa el código:<span class="discountcolor"> 20DICIEMBRE</span> Para recibir un 20% de descuento en artículos seleccionados. <i class="far fa-times-circle" onclick="ocultar()"></i></p>
+    </div>
+    <section>
+        <div class="contenedores">
+            <div class="imagen">
+                <img src="img/tenis1.png" width="560">
+            </div>
+            <div class="proceso">
+                <h2 class="positionh2">Nike Air Max 95</h2>
+                <h2 class="precioh2">175€</h2>
+                <div class="cajasdetallas">
+                    <button class="talla">36</button>
+                    <button class="talla">37</button>
+                    <button class="talla">38</button>
+                    <button class="talla">39</button>
+                    <button class="talla">40</button>
+                    <button class="talla">41</button>
+                    <button class="talla">42</button>
+                    <button class="talla">43</button>
+                    <button class="talla">44</button>
+                    <button class="talla">45</button>
+
+
+
+                </div>
+                <div class="botones">
+                    <button class="fav">Añádelo a favoritos</button>
+                    <button class="coloresdisp">Colores disponibles</button>
+                    <button class="comprarahora">Comprar ahora</button>
+                    <button class="añadircarrito">Añadir al carrito</button>
+                </div>
+            </div>
+        </div>
+        <hr class="hrdesc">
+        <div class="contenedorcarc">
+            <div>
+                <h2 class="positioncaracteristicas">Información de producto</h2>
+                <h4>Marca: Nike</h4>
+                <h4>Gama de modelos: Air Max</h4>
+                <p class="pcaracteristicas">La Air Max 95 es una zapatilla icónica, que ha estado a la vanguardia de la moda del calzado desde su creación. Esta zapatilla Air Max 95 para hombres proporciona una gama de colores frescos añadido a la silueta clásica, que está disponible
+                    en una malla negra con revestimientos tonales en las paredes laterales, más una punta de la lengueta de nylon. El zapato se sienta en una entresuela negra con una unidad de aire visible en el talón y una suela exterior negra. Este
+                    zapato clásico se acaba con la marca Swoosh bordada en el talón más la marca Air Max en la lengua. </p>
+            </div>
+            <div class="videoyaudio">
+                <h2 class="h2nike">Conoce la historia Nike.</h2>
+                <!-- La etiqueta vídeo posiciona tu vídeo en la página html. -->
+                <!-- Loop, hace que el vídeo al acabar, se repita. -->
+                <!-- Controls, te permite tener control sobre el vídeo y posicionarte en cualquier timing. -->
+                <!-- Preload="none", sirve para que no gastes datos innecesarios si no quieres reproducir el vídeo, no se cargará si no lo ejecutas. -->
+                <video src="video/meetnike.mp4" loop controls preload="none"></video>
+                <h2 class="h2nike">Audio acompañante del vídeo.</h2>
+                <!-- Audio inserta, el audio especificado en tu carpeta de la web. -->
+                <!-- Loop, al terminar el audio, se vuelve a reproducir. -->
+                <!-- Controls, le da poder al usuario de interactuar con el audio. -->
+                <!-- Preload="none", el audio no carga al iniciarse la página si no lo ejecutas. -->
+                <audio src="audio/Child's Nightmare.ogg" loop controls preload="none"></audio>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="blackline"></div>
+        <div class="footerbg">
+            <div class="footer-design">
+                <div class="tarjeta1">
+                    <h2>Ayuda y contacto</h2>
+                    <a href="#" class="footerlinks">
+                        <p>Seguir tu pedido.</p>
+                    </a>
+                    <a href="#" class="footerlinks">
+                        <p>Devolver un pedido.</p>
+                    </a>
+                </div>
+                <div class="tarjeta2">
+                    <h2>Tarjetas de regalo</h2>
+                    <a href="#" class="footerlinks">
+                        <p>Comprar una tarjeta de regalo.</p>
+                    </a>
+                    <a href="#" class="footerlinks">
+                        <p>Canjear código de descuento.</p>
+                    </a>
+                </div>
+                <div class="tarjeta3">
+                    <h2>Nuestras ventajas</h2>
+                    <a href="#" class="footerlinks">
+                        <p>Devolución gratuita.</p>
+                    </a>
+                    <a href="#" class="footerlinks">
+                        <p>Derecho de devolución de 75 días.</p>
+                    </a>
+                </div>
+                <div class="tarjeta3">
+                    <h2>Más información</h2>
+                    <a href="quienessomos.html" class="footerlinks">
+                        <p>¿Quiénes somos?</p>
+                    </a>
+                    <a href="#" class="footerlinks">
+                        <p>Distribuidores oficiales.</p>
+                    </a>
+                </div>
+
+            </div>
+            <div class="redes">
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+            </div>
+            <p class="copyright">©UrbanGod all rights reserved.</p>
+        </div>
+
+    </footer>
+</body>
+
+</html>

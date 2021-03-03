@@ -1,0 +1,151 @@
+    .contenedores {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        max-width: 76%;
+        margin: 5% auto;
+    }
+    
+    .positionh2 {
+        margin-top: 35px;
+    }
+    
+    .proceso {
+        display: flex;
+        flex-direction: column;
+        margin-top: -3%;
+        text-align: center;
+    }
+    
+    .cajasdetallas {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        max-width: 90%;
+        margin: auto;
+        margin-top: 10px;
+    }
+    
+    .talla {
+        display: flex;
+        flex-wrap: wrap;
+        width: 20%;
+        justify-content: center;
+        padding: 1em;
+        color: white;
+        background-color: black;
+        border: none;
+        font-weight: bold;
+        cursor: pointer;
+        border: 2px solid white;
+    }
+    
+    .talla:hover {
+        color: black;
+        background-color: #FDFDFD;
+        transition: 0.7s;
+    }
+    
+    .botones {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .coloresdisp,
+    .comprarahora,
+    .añadircarrito,
+    .fav {
+        display: flex;
+        width: 90%;
+        justify-content: center;
+        margin: auto;
+        margin-top: 10px;
+        padding: 2em;
+        cursor: pointer;
+    }
+    
+    .coloresdisp {
+        color: white;
+        font-weight: bold;
+        background-color: black;
+        border: none;
+    }
+    
+    .coloresdisp:hover {
+        color: black;
+        background-color: white;
+        transition: 0.7s;
+    }
+    
+    .comprarahora {
+        color: white;
+        font-weight: bold;
+        background-color: #33ADFF;
+        border: none;
+    }
+    
+    .comprarahora:hover {
+        color: black;
+        background-color: #FDFDFD;
+        transition: 0.7s;
+    }
+    
+    .añadircarrito {
+        color: white;
+        font-weight: bold;
+        background-color: #2C5A61;
+        border: none;
+    }
+    
+    .añadircarrito:hover {
+        color: black;
+        background-color: #FDFDFD;
+        transition: 0.7s;
+    }
+    
+    .fav {
+        color: white;
+        font-weight: bold;
+        background-color: coral;
+        border: none;
+    }
+    
+    .fav:hover {
+        color: black;
+        background-color: #FDFDFD;
+        transition: 0.7s;
+    }
+    
+    .precioh2 {
+        color: #33ADFF;
+        margin-top: 1px;
+    }
+    
+    .contenedorcarc {
+        width: 65.5%;
+        margin: auto;
+    }
+    
+    .hrdesc {
+        width: 65%;
+    }
+    
+    .positioncaracteristicas,
+    .pcaracteristicas {
+        text-align: justify;
+    }
+    
+    .h2nike {
+        text-align: center;
+    }
+    
+    .videoyaudio {
+        text-align: center;
+    }
+    
+    video,
+    audio {
+        width: 80%;
+    }
