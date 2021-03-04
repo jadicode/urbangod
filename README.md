@@ -19,6 +19,13 @@ Si deseas ejecutarlo en un servidor Live, puedes utilizar vscode e instalar la e
 - Modo nocturno añadido en el index.html (beta)
 - Eliminación de DIV descuentos.
 
+### Disposición de contenido:
+- HTML generales en carpeta `UrbanGod HTML`.
+- Audios de la web en la carpeta `audio`.
+- Videos de la web en la carpeta `video`.
+- Imágenes de la web en la carpeta `img`.
+- Estilos de la web en la carpeta `css`.
+- Scripts de la web en la carpeta `js`.
 ### Lenguajes Utilizados:
 - `HTML5`.
 - `CSS`.
