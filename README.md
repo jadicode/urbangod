@@ -32,6 +32,8 @@ Si deseas ejecutarlo en un servidor Live, puedes utilizar vscode e instalar la e
 - `JAVASCRIPT`.
 - `JQUERY`.
 
+### ¿IMÁGENES Y VIDEOS OPTIMIZADOS?
+- Sí, todos los elementos multimedia están optimizados en cuanto calidad.
 
 ## Licencia
 Privada, si vas a editar o usar código, consúltame antes.
